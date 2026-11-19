@@ -1,0 +1,101 @@
+# ==========================================
+# FRONTEND - Node Modules & Cache
+# ==========================================
+node_modules/
+.npm-cache/
+dist/
+build/
+
+# Frontend - Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==========================================
+# BACKEND - Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Backend - Virtual Environment
+backend/venv/
+backend/.venv/
+backend/env/
+backend/ENV/
+backend/env.bak/
+backend/venv.bak/
+
+# Backend - Node modules (if any)
+backend/node_modules/
+backend/npm-debug.log*
+
+# Backend - Build and Distribution
+backend/build/
+backend/develop-eggs/
+backend/dist/
+backend/downloads/
+backend/eggs/
+backend/.eggs/
+backend/lib/
+backend/lib64/
+backend/parts/
+backend/sdist/
+backend/var/
+backend/wheels/
+backend/pip-wheel-metadata/
+
+# Backend - Application specific
+backend/faiss_store/
+backend/.cache/
+backend/.pytest_cache/
+
+# ==========================================
+# ENVIRONMENT & CREDENTIALS
+# ==========================================
+.env
+.env.local
+.env.*.local
+
+# ==========================================
+# IDE & EDITOR
+# ==========================================
+.vscode/
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# ==========================================
+# OS
+# ==========================================
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# EDITOR FILES
+# ==========================================
+*.local
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ==========================================
+# LOGS
+# ==========================================
+logs/
+*.log
+*.log.*
+
+

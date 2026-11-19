@@ -1,0 +1,24 @@
+# Core local application dependencies. These support Python 3.13 and are all
+# that is required to run the API with its built-in SQLite database.
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1
+requests>=2.31,<3
+python-dotenv>=1.0,<2
+sqlalchemy>=2.0,<3
+alembic>=1.13,<2
+passlib>=1.7,<2
+PyJWT>=2.8,<3
+lingua-language-detector>=2.0,<3
+
+# Optional integrations (the application continues to run when these are not
+# installed or configured):
+# firebase-admin>=6.0,<8              # Firebase persistence
+# psycopg2-binary>=2.9,<3              # PostgreSQL instead of SQLite
+# faiss-cpu>=1.8                       # RAG search index
+# sentence-transformers>=3.0           # RAG embeddings
+# langchain-text-splitters>=0.3
+# langchain-community>=0.3
+# pypdf>=4.0
+# torch>=2.4                           # NLLB translations
+# transformers>=4.45
+# sentencepiece>=0.2
